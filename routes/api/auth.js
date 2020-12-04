@@ -10,8 +10,8 @@ const config=require('config')
 const validator=require('validator')
 
 // @route  GET api/auth
-// @desc   Test
-// @access Protected(jwt required)
+// @desc   login and authorization
+// @access private
 router.get('/',auth,async(req,res)=>{
 
    try{
